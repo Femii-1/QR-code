@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgba(204, 224, 224, 0.781);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_body {
+    background-color: rgba(255, 255, 255, 0.822);
+    min-height: max-content;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    /* border-color: rgba(141, 250, 250, 0.9); */
+    border-radius: 50px;
+    padding: 8px;
+}
+
+img {
+    width: 90%;
+    margin: 32px 0 4px 0;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 64px 32px;
+}
+
+#first_p {
+    font-size: 58px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    margin: 0 0 32px 0;
+}
+
+#second_p {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 60px;
+    /* font-family: "Outfit", sans-serif; */
+    font-weight: 800;
+    margin: 16px o 16px 16px;
+}
