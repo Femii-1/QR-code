@@ -19,7 +19,7 @@ body {
 .main_body {
     background-color: rgba(255, 255, 255, 0.822);
     height: fit-content;
-    width: 30vw;
+    width: 250px;
     /* max-width: 40vw; */
     display: flex;
     flex-direction: column;
